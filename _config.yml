@@ -1,3 +1,5 @@
 title: "A1V - 22 "
 description: "Nuclear Fusion Apologist"
-theme: jekyll-theme-modernist
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme # Enable GitHub Pages theme support
