@@ -8,6 +8,12 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+  - title: "Blog"
+    url: /blog/
+
+  - title: "Reading"
+    url: /reading/
+
   - title: "Publications"
     url: /publications/
 
@@ -20,9 +26,6 @@ main:
   - title: "Portfolio"
     url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
-    
   - title: "CV"
     url: /cv/
     
