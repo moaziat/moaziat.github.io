@@ -8,15 +8,12 @@ author_profile: true
 {% assign papers = site.data.reading.papers %}
 {% assign books = site.data.reading.books %}
 
-<div class="reading-nav">
-  <a href="#papers">Papers</a>
-  <a href="#books">Books</a>
-</div>
+<p><a href="#papers">Papers</a> / <a href="#books">Books</a></p>
 
 <h2 id="papers">Papers</h2>
 
 {% if papers and papers.size > 0 %}
-  <table class="reading-table">
+  <table>
     <thead>
       <tr>
         <th>Title</th>
@@ -31,13 +28,7 @@ author_profile: true
     <tbody>
       {% for item in papers %}
         <tr>
-          <td>
-            {% if item.link %}
-              <a href="{{ item.link }}">{{ item.title }}</a>
-            {% else %}
-              {{ item.title }}
-            {% endif %}
-          </td>
+          <td>{% if item.link %}<a href="{{ item.link }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</td>
           <td>{{ item.authors }}</td>
           <td>{{ item.year }}</td>
           <td>{{ item.status | default: "tracked" }}</td>
@@ -55,7 +46,7 @@ author_profile: true
 <h2 id="books">Books</h2>
 
 {% if books and books.size > 0 %}
-  <table class="reading-table">
+  <table>
     <thead>
       <tr>
         <th>Title</th>
@@ -70,13 +61,7 @@ author_profile: true
     <tbody>
       {% for item in books %}
         <tr>
-          <td>
-            {% if item.link %}
-              <a href="{{ item.link }}">{{ item.title }}</a>
-            {% else %}
-              {{ item.title }}
-            {% endif %}
-          </td>
+          <td>{% if item.link %}<a href="{{ item.link }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</td>
           <td>{{ item.authors }}</td>
           <td>{{ item.year }}</td>
           <td>{{ item.status | default: "tracked" }}</td>

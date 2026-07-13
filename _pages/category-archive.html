@@ -5,13 +5,15 @@ title: "Posts by Category"
 author_profile: true
 ---
 
-{% include base_path %}
-{% include group-by-array collection=site.posts field="categories" %}
-
-{% for category in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
+{% if site.categories.size > 0 %}
+  {% for category in site.categories %}
+    {% assign category_name = category[0] %}
+    {% assign posts = category[1] %}
+    <h2 id="{{ category_name | slugify }}" class="archive__subtitle">{{ category_name }}</h2>
+    {% for post in posts %}
+      {% include archive-single.html %}
+    {% endfor %}
   {% endfor %}
-{% endfor %}
+{% else %}
+  <p>No categories yet.</p>
+{% endif %}
