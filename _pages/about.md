@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I’m Mohamed Aziat, and I have a deep passion for computers, mathematics, and physics. Over the past two years, I have been especially fascinated by stellarators (yes it's not a hat on my head!) and the computational challenges involved in their design and optimisation.
+Hello! I’m Mohamed AZIAT, and I have a deep passion for computers, mathematics, and physics. Over the past two years, I have been especially fascinated by stellarators (yes it's not a hat on my head!) and the computational challenges involved in their design and optimisation.
 
 I use the blog for longer notes, project updates, and thoughts that are worth saving in public.
 

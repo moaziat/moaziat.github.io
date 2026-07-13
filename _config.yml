@@ -4,9 +4,9 @@ minimal_mistakes_skin: "default"
 
 # Site Settings
 locale: "en-US"
-title: "Moaziat"
+title: "A1V"
 title_separator: "-"
-name: "Moaziat"
+name: "Mohamed AZIAT"
 description: "Personal writing and reading notes."
 url: "https://moaziat.github.io"
 baseurl: ""
@@ -20,7 +20,7 @@ future: false
 
 # Site Author
 author:
-  name: "Moaziat"
+  name: "Mohamed AZIAT"
   avatar: "/images/profile.png"
   bio: "Writing, reading notes, and ideas."
   location:
@@ -48,7 +48,7 @@ facebook:
 og_image:
 social:
   type: Person
-  name: "Moaziat"
+  name: "Mohamed AZIAT"
   links: []
 
 # Analytics
