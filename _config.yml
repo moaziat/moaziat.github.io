@@ -25,11 +25,23 @@ author:
   bio: "Writing, reading notes, and ideas."
   location:
   email:
-  links: []
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/moaziat"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://www.linkedin.com/in/your-linkedin-profile/"
 
 # Site Footer
 footer:
-  links: []
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/moaziat"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://www.linkedin.com/in/your-linkedin-profile/"
 
 # Comments and feeds
 comments:
