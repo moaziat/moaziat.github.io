@@ -11,22 +11,18 @@ papers:
 books:
   - title: "The Elements of Differentiable Programming"
     authors: "Mathieu Blondel, Vincent Roulet"
-    link: '<a href="https://arxiv.org/abs/2403.14606" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2403.14606</a>'
+    link: "https://arxiv.org/abs/2403.14606"
 
   - title: "An Introduction to Stellarators: From magnetic fields to symmetries and optimization"
     authors: "Lise-Marie Imber-Gerard, Elizabeth J. Paul, Adelle M. Wright"
-    link: '<a href="https://arxiv.org/abs/1908.05360" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/1908.05360</a>'
-
-  - title: "An Introduction to Stellarators: From magnetic fields to symmetries and optimization"
-    authors: "Lise-Marie Imber-Gerard, Elizabeth J. Paul, Adelle M. Wright"
-    link: '://arxiv.org/abs/1908.05360" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/1908.05360</a>'
+    link: "https://arxiv.org/abs/1908.05360"
 
   - title: "Scientific Programming and Computer Architecture"
     authors: "Divakar Viswanath"
-    link: '<a href="https://divakarvi.github.io/bk-spca/spca.html" target="_blank" rel="noopener noreferrer">https://divakarvi.github.io/bk-spca/spca.html</a>'
+    link: "https://divakarvi.github.io/bk-spca/spca.html"
 
   - title: "The Rust Programming Language"
     authors: "Steve Klabnik, Carol Nichols, and Chris Krycho, with contributions from the Rust Community"
-    link: '<a href="https://doc.rust-lang.org/stable/book/" target="_blank" rel="noopener noreferrer">https://doc.rust-lang.org/stable/book/</a>'
+    link: "https://doc.rust-lang.org/stable/book/"
     note: "Always reading this book since I am on a journey to become a Rust expert"
   
