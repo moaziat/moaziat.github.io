@@ -8,12 +8,26 @@ papers:
 #    finished: "2026-07-13"
 #    notes: "Short takeaway or why it matters."
 
+
 books:
-#  - title: "Book title"
-#    authors: "Author Name"
-#    year: 2026
-#    status: "want-to-read"
-#    topic: "Topic or project"
-#    link: "https://example.com"
-#    finished: ""
-#    notes: "Short takeaway or why it matters."
+ - title: "The Elements of Differentiable Programming"
+   authors: "Mathieu Blondel, Vincent Roulet"
+   link: "https://arxiv.org/abs/2403.14606"
+   
+- title: "An Introduction to Stellarators: From magnetic fields to symmetries and optimization"
+  authors: "Lise-Marie Imber-Gerard, Elizabeth J. Paul, Adelle M. Wright"
+  link: "https://arxiv.org/abs/1908.05360"
+  
+- title: "An Introduction to Stellarators: From magnetic fields to symmetries and optimization"
+  authors: "Lise-Marie Imber-Gerard, Elizabeth J. Paul, Adelle M. Wright"
+  link: "https://arxiv.org/abs/1908.05360"
+
+- title: "Scientific Programming and Computer Architecture"
+  authors: "Divakar Viswanath"
+  link: "https://divakarvi.github.io/bk-spca/spca.html"
+
+- title: "The Rust Programming Language"
+  authors: "Steve Klabnik, Carol Nichols, and Chris Krycho, with contributions from the Rust Community"
+  link: "https://doc.rust-lang.org/stable/book/"
+  Note: "Always reading this book since I am on a journey to become a Rust expert" 
+  
