@@ -8,17 +8,6 @@ papers:
 #    finished: "2026-07-13"
 #    notes: "Short takeaway or why it matters."
 
-
-papers:
-  # - title: "Paper title"
-  #   authors: "Author One and Author Two"
-  #   year: 2026
-  #   status: "reading"
-  #   topic: "Topic or project"
-  #   link: '<a href="https://example.com" target="_blank" rel="noopener noreferrer">https://example.com</a>'
-  #   finished: "2026-07-13"
-  #   notes: "Short takeaway or why it matters."
-
 books:
   - title: "The Elements of Differentiable Programming"
     authors: "Mathieu Blondel, Vincent Roulet"
