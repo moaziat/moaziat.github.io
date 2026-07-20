@@ -45,7 +45,6 @@ author_profile: true
 {% else %}
 <p>No papers tracked yet.</p>
 {% endif %}
-
 <h2 id="books">Books</h2>
 
 {% if books and books.size > 0 %}
@@ -62,7 +61,8 @@ author_profile: true
     <tr>
       <td>
         {% if item.link %}
-          <a href="{{ item.link }}" target="_blank     {{ item.title }}
+          <a href="{{ item.link }}" target%}
+          {{ item.title }}
         {% endif %}
       </td>
       <td>{{ item.authors }}</td>
@@ -74,3 +74,4 @@ author_profile: true
 {% else %}
 <p>No books tracked yet.</p>
 {% endif %}
+
