@@ -9,25 +9,35 @@ papers:
 #    notes: "Short takeaway or why it matters."
 
 
+papers:
+  # - title: "Paper title"
+  #   authors: "Author One and Author Two"
+  #   year: 2026
+  #   status: "reading"
+  #   topic: "Topic or project"
+  #   link: '<a href="https://example.com" target="_blank" rel="noopener noreferrer">https://example.com</a>'
+  #   finished: "2026-07-13"
+  #   notes: "Short takeaway or why it matters."
+
 books:
- - title: "The Elements of Differentiable Programming"
-   authors: "Mathieu Blondel, Vincent Roulet"
-   link: "https://arxiv.org/abs/2403.14606"
-   
-- title: "An Introduction to Stellarators: From magnetic fields to symmetries and optimization"
-  authors: "Lise-Marie Imber-Gerard, Elizabeth J. Paul, Adelle M. Wright"
-  link: "https://arxiv.org/abs/1908.05360"
-  
-- title: "An Introduction to Stellarators: From magnetic fields to symmetries and optimization"
-  authors: "Lise-Marie Imber-Gerard, Elizabeth J. Paul, Adelle M. Wright"
-  link: "https://arxiv.org/abs/1908.05360"
+  - title: "The Elements of Differentiable Programming"
+    authors: "Mathieu Blondel, Vincent Roulet"
+    link: '<a href="https://arxiv.org/abs/2403.14606" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2403.14606</a>'
 
-- title: "Scientific Programming and Computer Architecture"
-  authors: "Divakar Viswanath"
-  link: "https://divakarvi.github.io/bk-spca/spca.html"
+  - title: "An Introduction to Stellarators: From magnetic fields to symmetries and optimization"
+    authors: "Lise-Marie Imber-Gerard, Elizabeth J. Paul, Adelle M. Wright"
+    link: '<a href="https://arxiv.org/abs/1908.05360" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/1908.05360</a>'
 
-- title: "The Rust Programming Language"
-  authors: "Steve Klabnik, Carol Nichols, and Chris Krycho, with contributions from the Rust Community"
-  link: "https://doc.rust-lang.org/stable/book/"
-  Note: "Always reading this book since I am on a journey to become a Rust expert" 
+  - title: "An Introduction to Stellarators: From magnetic fields to symmetries and optimization"
+    authors: "Lise-Marie Imber-Gerard, Elizabeth J. Paul, Adelle M. Wright"
+    link: '://arxiv.org/abs/1908.05360" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/1908.05360</a>'
+
+  - title: "Scientific Programming and Computer Architecture"
+    authors: "Divakar Viswanath"
+    link: '<a href="https://divakarvi.github.io/bk-spca/spca.html" target="_blank" rel="noopener noreferrer">https://divakarvi.github.io/bk-spca/spca.html</a>'
+
+  - title: "The Rust Programming Language"
+    authors: "Steve Klabnik, Carol Nichols, and Chris Krycho, with contributions from the Rust Community"
+    link: '<a href="https://doc.rust-lang.org/stable/book/" target="_blank" rel="noopener noreferrer">https://doc.rust-lang.org/stable/book/</a>'
+    note: "Always reading this book since I am on a journey to become a Rust expert"
   
