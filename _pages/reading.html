@@ -8,68 +8,69 @@ author_profile: true
 {% assign papers = site.data.reading.papers %}
 {% assign books = site.data.reading.books %}
 
-<p><a href="#papers">Papers</a> / <a href="#books">Books</a></p>
+<p>#papers> / #books</p>
 
 <h2 id="papers">Papers</h2>
 
 {% if papers and papers.size > 0 %}
-  <table>
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Authors</th>
-        <th>Year</th>
-        <th>Status</th>
-        <th>Topic</th>
-        <th>Finished</th>
-        <th>Notes</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for item in papers %}
-        <tr>
-          <td>{% if item.link %}<a href="{{ item.link }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</td>
-          <td>{{ item.authors }}</td>
-          <td>{{ item.year }}</td>
-          <td>{{ item.status | default: "tracked" }}</td>
-          <td>{{ item.topic }}</td>
-          <td>{{ item.finished }}</td>
-          <td>{{ item.notes }}</td>
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Authors</th>
+      <th>Year</th>
+      <th>Topic</th>
+      <th>Finished</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in papers %}
+    <tr>
+      <td>
+        {% if item.link %}
+          <a href="{{ item.link }}"% else %}
+          {{ item.title }}
+        {% endif %}
+      </td>
+      <td>{{ item.authors }}</td>
+      <td>{{ item.year }}</td>
+      <td>{{ item.topic }}</td>
+      <td>{{ item.finished }}</td>
+      <td>{{ item.notes }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 {% else %}
-  <p>No papers tracked yet.</p>
+<p>No papers tracked yet.</p>
 {% endif %}
 
 <h2 id="books">Books</h2>
 
 {% if books and books.size > 0 %}
-  <table>
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Author</th>
-        <th>Notes</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for item in books %}
-        <tr>
-          <td>
-            {% if item.link %}
-              <a href.link }}{{ item.title }}</a>
-            {% else %}
-              {{ item.title }}
-            {% endif %}
-          </td>
-          <td>{{ item.authors }}</td>
-          <td>{{ item.note | default: item.notes }}</td>
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Authors</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in books %}
+    <tr>
+      <td>
+        {% if item.link %}
+          <a href="{{ item.link }}" target="_blank     {{ item.title }}
+        {% endif %}
+      </td>
+      <td>{{ item.authors }}</td>
+      <td>{{ item.note | default: item.notes }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 {% else %}
-  <p>No books tracked yet.</p>
+<p>No books tracked yet.</p>
 {% endif %}
