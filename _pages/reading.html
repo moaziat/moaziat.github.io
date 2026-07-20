@@ -51,23 +51,21 @@ author_profile: true
       <tr>
         <th>Title</th>
         <th>Author</th>
-        <th>Year</th>
-        <th>Status</th>
-        <th>Topic</th>
-        <th>Finished</th>
         <th>Notes</th>
       </tr>
     </thead>
     <tbody>
       {% for item in books %}
         <tr>
-          <td>{% if item.link %}<a href="{{ item.link }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</td>
+          <td>
+            {% if item.link %}
+              <a href.link }}{{ item.title }}</a>
+            {% else %}
+              {{ item.title }}
+            {% endif %}
+          </td>
           <td>{{ item.authors }}</td>
-          <td>{{ item.year }}</td>
-          <td>{{ item.status | default: "tracked" }}</td>
-          <td>{{ item.topic }}</td>
-          <td>{{ item.finished }}</td>
-          <td>{{ item.notes }}</td>
+          <td>{{ item.note | default: item.notes }}</td>
         </tr>
       {% endfor %}
     </tbody>
