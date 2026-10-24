@@ -1,0 +1,154 @@
+---
+# Only the main Sass file needs front matter.
+---
+
+@charset "utf-8";
+
+$background-color: #f4efdc;
+$text-color: #173f5f;
+$muted-text-color: #173f5f;
+$primary-color: #173f5f;
+$link-color: #173f5f;
+$link-color-hover: #0f304b;
+$link-color-visited: #173f5f;
+$border-color: rgba(23, 63, 95, 0.2);
+$footer-background-color: #eee6ce;
+
+@import "minimal-mistakes";
+
+:root {
+  --ink-blue: #173f5f;
+  --ink-blue-dark: #0f304b;
+  --soft-paper: #f4efdc;
+  --paper-shadow: rgba(92, 74, 35, 0.035);
+  --ink-border: rgba(23, 63, 95, 0.2);
+}
+
+html {
+  background: var(--soft-paper);
+}
+
+body {
+  color: var(--ink-blue);
+  background-color: var(--soft-paper);
+  background-image:
+    radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.34), transparent 38%),
+    radial-gradient(circle at 82% 72%, var(--paper-shadow), transparent 42%),
+    repeating-linear-gradient(
+      0deg,
+      rgba(92, 74, 35, 0.014) 0,
+      rgba(92, 74, 35, 0.014) 1px,
+      transparent 1px,
+      transparent 4px
+    );
+  background-attachment: fixed;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+dt,
+dd,
+table,
+th,
+td,
+label,
+input,
+textarea,
+button,
+.site-title,
+.page__meta,
+.archive__item-excerpt,
+.author__bio,
+.author__urls,
+.page__footer,
+.page__footer-follow,
+.page__footer-copyright {
+  color: var(--ink-blue);
+}
+
+a,
+a:visited,
+.page__content a,
+.greedy-nav a,
+.author__urls a,
+.page__footer a,
+.archive__item-title a,
+.social-icons a,
+.social-icons .fa,
+.social-icons .fab,
+.social-icons .fas {
+  color: var(--ink-blue);
+}
+
+.page__content a,
+.page__content a:visited {
+  color: var(--ink-blue) !important;
+}
+
+a:hover,
+a:focus-visible,
+.greedy-nav a:hover,
+.author__urls a:hover,
+.page__footer a:hover {
+  color: var(--ink-blue-dark);
+}
+
+.masthead,
+.greedy-nav {
+  background: rgba(244, 239, 220, 0.94);
+}
+
+.sidebar {
+  opacity: 1;
+}
+
+.masthead,
+.page__footer,
+hr,
+table,
+th,
+td,
+.archive__subtitle {
+  border-color: var(--ink-border);
+}
+
+thead {
+  background: rgba(23, 63, 95, 0.045);
+  border-color: var(--ink-border);
+}
+
+blockquote {
+  color: var(--ink-blue);
+  border-left-color: rgba(23, 63, 95, 0.35);
+}
+
+code,
+kbd,
+samp,
+pre {
+  color: var(--ink-blue);
+  background: rgba(255, 255, 255, 0.24);
+  border-color: var(--ink-border);
+}
+
+.page__footer {
+  background: rgba(238, 230, 206, 0.92);
+}
+
+::selection {
+  color: var(--ink-blue-dark);
+  background: rgba(202, 185, 130, 0.48);
+}
+
+@media (max-width: 48rem) {
+  body {
+    background-attachment: scroll;
+  }
+}
